@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Micah Courey</title>
+    <link href="./assets/css/app.css" rel="stylesheet" type="text/css">
+    <script src="./assets/js/foundation.js"></script>
+    <script src="./assets/js/templates.js"></script>
+    <script src="./assets/js/routes.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </head>
+  <body>
+
+    <div class="menu-group dark menu-color">
+      <div class="menu-group-left">
+        <ul class="menu-bar dark space-left">
+          <li><a ui-sref="home" class="signature">Micah Courey</a></li>
+        </ul>
+      </div>
+      <div class="menu-group-right">
+        <ul class="dark menu-bar space-right">
+          <li ui-sref-active="is-active"><a ui-sref="portfolio">Portfolio</a></li>
+          <li ui-sref-active="is-active"><a ui-sref="about">About Me</a></li>
+          <li ui-sref-active="is-active"><a ui-sref="contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div ui-view class="grid-content"></div>
+
+  </body>
+</html>
