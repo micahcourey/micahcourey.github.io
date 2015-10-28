@@ -6441,12 +6441,13 @@ h1, h2, h3, h4, h6, a {
   padding-top: 8px; }
 
 .social {
-  height: 140px; }
+  min-width: 100px; }
 
 .social-div {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+          padding-top: 14px;}
 
 .bridge {
   rotation: 90deg;
