@@ -6447,7 +6447,7 @@ h1, h2, h3, h4, h6, a {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-          padding-top: 14px;}
+  padding-top: 14px; }
 
 .bridge {
   rotation: 90deg;
@@ -6457,5 +6457,8 @@ h1, h2, h3, h4, h6, a {
 .center {
   text-align: center; }
 
-.email {
+.links {
   color: #00aced; }
+
+.links:hover {
+  color: #3AB795; }
